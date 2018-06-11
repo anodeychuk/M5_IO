@@ -19,7 +19,7 @@ namespace M5_IO
             SaveToArcEvent += FilesService.FileToArchive;
 
             #region constants
-            string path = $@"C:\Users\{Environment.UserName}\source";
+            string path = $@"C:\Users\{Environment.UserName}\";
             string fileName = "discInfo";
             string pathFile = $@"C:\Users\{Environment.UserName}\Desktop\{fileName}.txt";
             string pathArc = $@"C:\Users\{Environment.UserName}\Desktop\{fileName}.zip";
